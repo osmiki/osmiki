@@ -1,0 +1,344 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Global navigation */
+
+#gl_about {
+    width: 100vw;
+    height: 5000px;
+    background-color: white;
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#gl_about .profile_kr {
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+#gl_about .profile_en {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+#gl_about .profile_contact {
+    margin-top: 240px;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+/*ppp설명 */
+
+.PL_article {
+    margin-top: 192px;
+    padding-left: 80px;
+    padding-right: 55%;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+@media(max-width:800px) {
+    .PL_article {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+/*main_logo menu bar*/
+
+.logo img {
+    width: 80px;
+    position: fixed;
+    margin: 43px 0px 0px 80px;
+}
+
+.menu img {
+    width: 104px;
+    right: 80px;
+    margin: 48px 0px 0px 80px;
+    position: fixed;
+}
+
+.menu_x img {
+    width: 104px;
+    right: 80px;
+    margin: 48px 0px 0px 80px;
+
+    position: fixed;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:cadetblue;
+}
+
+.bottom {
+    font-family: Graphik, cursive;
+    bottom: 16px;
+    left: 80px;
+    font-size: 13px;
+    position: fixed;
+}
+
+
+/* main 포트폴리오 리스트 */
+
+@media(max-width:800px) {
+    .project1 img {
+        margin-right: 0;
+    }
+}
+
+
+.image1 {
+    display: block;
+    float: right;
+    width: 480px;
+    margin-right: 240px;
+}
+
+.middle1 {
+    display: block;
+    transition: .5s ease;
+    opacity: 0;
+    position: fixed;
+    float: left;
+    margin-left: 80px;
+    margin-top: 160px;
+    text-align: center;
+}
+
+.project1:hover .image1 {
+    opacity: 0.3;
+}
+
+.project1:hover .middle1 {
+    opacity: 1;
+}
+
+.text1 {
+    color: black;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+
+.image2 {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 160px;
+    margin-bottom: 240px;
+}
+
+.middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: fixed;
+    float: left;
+    margin-left: 80px;
+    margin-top: 160px;
+}
+
+.project2:hover .image2 {
+    opacity: 0.3;
+}
+
+.project2:hover .middle2 {
+    opacity: 1;
+}
+
+.text2 {
+    color: black;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+
+.image3 {
+    display: block;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-bottom: 160px;
+}
+
+.middle3 {
+    display: block;
+    transition: .5s ease;
+    opacity: 0;
+    position: fixed;
+    top: 160px;
+    left: 80px;
+}
+
+.project3:hover .image3 {
+    opacity: 0.5;
+}
+
+.project3:hover .middle3 {
+    opacity: 1;
+}
+
+.text3 {
+    color: black;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+.project4 {
+    float: right;
+    font-family: "Graphik", cursive;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 208px;
+    margin-right: 80px;
+    padding: 80px 0px 80px 80px;
+
+}
+
+/*.project4:hover {
+    display: block;
+    margin-right: 80px;
+    margin-left: 80px;
+    background: url(/img/project4_over.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 200px;
+}*/
+
+.project4_2 {
+    font-size: 16px;
+}
+
+
+.project5 {
+    float: left;
+    font-family: "Graphik", cursive;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 30%;
+    margin-bottom: 160px;
+    margin-left: 160px;
+    margin-right: 80px;
+}
+
+.project5_2 {
+    font-size: 16px;
+}
+
+.project6 img {
+    width: 70%;
+    float: left;
+    margin-top: 80px;
+}
+
+.middle6 {
+    transition: .5s ease;
+    opacity: 0;
+    position: fixed;
+    top: 160px;
+    left: 80px;
+    text-align: center;
+}
+
+.project6:hover .image6 {
+    opacity: 0.3;
+}
+
+.project6:hover .middle6 {
+    opacity: 1;
+}
+
+.text6 {
+    color: black;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+@media(max-width:800px) {
+    .project6 img {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+
+    }
+    .project6 {
+        margin-bottom: 160px;
+    }
+
+}
+
+.project7 img {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 240px;
+    margin-bottom: 240px;
+}
+
+.middle7 {
+    display: block;
+    transition: .5s ease;
+    opacity: 0;
+    position: fixed;
+    top: 160px;
+    left: 80px;
+    text-align: center;
+}
+
+.project7:hover .image7 {
+    opacity: 0.5;
+}
+
+.project7:hover .middle7 {
+    opacity: 1;
+}
+
+.text7 {
+    color: black;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+
+.project8 {
+    float: right;
+    margin-top: 320px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+.project8 img {
+    margin-top: -180px;
+    margin-right: -64px;
+    width: 75%;
+    float: left;
+    vertical-align: middle;
+}
+
+.etc {
+    float: left;
+    margin-top: 400px;
+    margin-bottom: 160px;
+    margin-left: 80px;
+    font-size: 48px;
+    font-weight: 300;
+}

@@ -1,0 +1,166 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Global navigation */
+
+#gl_about {
+    width: 100vw;
+    height: 5000px;
+    background-color: white;
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#gl_about .profile_kr {
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+#gl_about .profile_en {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+#gl_about .profile_contact {
+    margin-top: 240px;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+/*ppp설명 */
+
+.PL_article {
+    margin-top: 192px;
+    padding-left: 80px;
+    padding-right: 55%;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+@media(max-width:800px) {
+    .PL_article {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+/*main_logo menu bar*/
+
+.logo img {
+    width: 80px;
+    position: fixed;
+    margin: 43px 0px 0px 80px;
+}
+
+.menu img {
+    width: 104px;
+    right: 80px;
+    margin: 48px 0px 0px 80px;
+    position: fixed;
+}
+
+.menu_x img {
+    width: 104px;
+    right: 80px;
+    margin: 48px 0px 0px 80px;
+
+    position: fixed;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.bottom {
+    font-family: Graphik, cursive;
+    bottom: 16px;
+    left: 80px;
+    font-size: 13px;
+    position: fixed;
+}
+
+
+
+/*project1 area*/
+
+.project1_full img {
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.project1_title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 200;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+.project1_article {
+    text-align: center;
+    font-size: 13px;
+    font-family: Graphik, "나눔바른고딕", cursive;
+}
+
+
+.P1_businesscard img {
+    display: block;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project1_top img {
+    width: 60%;
+    display: block;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.P1_photo1 img {
+    margin-left: 0px;
+    margin-right: none;
+}
+
+.P1_photo2 img {
+    width: 100%;
+    margin-top: -10px;
+}
+
+.P1_sticker1 img {
+    display: block;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.P1_sticker2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 160px;
+}
+
+#video {
+    display: block;
+    width: 90%;
+    min-width: 90%;
+    min-height: 100%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+
+}
