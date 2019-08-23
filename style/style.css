@@ -130,7 +130,7 @@ a:hover {
 
 .text1 {
     color: black;
-    font-size: 45px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Roboto'  , sans-serif;
 }
@@ -163,7 +163,7 @@ a:hover {
 
 .text2 {
     color: black;
-    font-size: 45px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Roboto'  , sans-serif;
 }
@@ -197,7 +197,7 @@ a:hover {
 
 .text3 {
     color: black;
-    font-size: 45px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Roboto'  , sans-serif;
 }
@@ -268,7 +268,7 @@ a:hover {
 
 .text6 {
     color: black;
-    font-size: 45px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Roboto'  , sans-serif;
 }
@@ -313,7 +313,7 @@ a:hover {
 
 .text7 {
     color: black;
-    font-size: 45px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Roboto'  , sans-serif;
 }
@@ -322,10 +322,11 @@ a:hover {
 .project8 {
     float: right;
     margin-top: 320px;
-    font-size: 50px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Roboto'  , sans-serif;
 }
+
 
 .project8 img {
     margin-top: -180px;
@@ -340,6 +341,6 @@ a:hover {
     margin-top: 400px;
     margin-bottom: 160px;
     margin-left: 80px;
-    font-size: 48px;
+    font-size: 16px;
     font-weight: 300;
 }
