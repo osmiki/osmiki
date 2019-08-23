@@ -40,7 +40,7 @@ body {
     margin-top: 192px;
     padding-left: 80px;
     padding-right: 55%;
-    font-family: Graphik, "나눔바른고딕", cursive;
+    font-family: "나눔바른고딕", sans-serif;
 }
 
 @media(max-width:800px) {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .bottom {
-    font-family: Graphik, cursive;
+    font-family: sans-serif;
     bottom: 16px;
     left: 80px;
     font-size: 13px;
@@ -131,7 +131,7 @@ a:hover {
     color: black;
     font-size: 45px;
     font-weight: 500;
-    font-family: Graphik, "나눔바른고딕", cursive;
+    font-family: "나눔바른고딕", sans-serif;
 }
 
 
@@ -164,7 +164,7 @@ a:hover {
     color: black;
     font-size: 45px;
     font-weight: 500;
-    font-family: Graphik, "나눔바른고딕", cursive;
+    font-family: "나눔바른고딕", sans-serif;
 }
 
 
@@ -198,12 +198,12 @@ a:hover {
     color: black;
     font-size: 45px;
     font-weight: 500;
-    font-family: Graphik, "나눔바른고딕", cursive;
+    font-family: "나눔바른고딕", sans-serif;
 }
 
 .project4 {
     float: right;
-    font-family: "Graphik", cursive;
+    font-family: "Graphik", sans-serif;
     font-size: 45px;
     font-weight: 500;
     margin-bottom: 208px;
@@ -229,7 +229,7 @@ a:hover {
 
 .project5 {
     float: left;
-    font-family: "Graphik", cursive;
+    font-family: "Graphik", sans-serif;
     font-size: 45px;
     font-weight: 500;
     margin-top: 30%;
@@ -269,7 +269,7 @@ a:hover {
     color: black;
     font-size: 45px;
     font-weight: 500;
-    font-family: Graphik, "나눔바른고딕", cursive;
+    font-family: "나눔바른고딕", sans-serif;
 }
 
 @media(max-width:800px) {
@@ -314,7 +314,7 @@ a:hover {
     color: black;
     font-size: 45px;
     font-weight: 500;
-    font-family: Graphik, "나눔바른고딕", cursive;
+    font-family: "나눔바른고딕", sans-serif;
 }
 
 
@@ -323,7 +323,7 @@ a:hover {
     margin-top: 320px;
     font-size: 50px;
     font-weight: 500;
-    font-family: Graphik, "나눔바른고딕", cursive;
+    font-family: "나눔바른고딕", sans-serif;
 }
 
 .project8 img {
