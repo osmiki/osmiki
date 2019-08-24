@@ -81,7 +81,7 @@ a {
 }
 
 a:hover {
-    color:cadetblue;
+    opacity: 0.3;
 }
 
 .bottom {
@@ -203,9 +203,9 @@ a:hover {
 }
 
 .project4 {
-    float: right;
+    float: left;
     font-family: 'Roboto'  , sans-serif;
-    font-size: 45px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 208px;
     margin-right: 80px;
@@ -231,11 +231,11 @@ a:hover {
 .project5 {
     float: left;
     font-family: 'Roboto'  , sans-serif;
-    font-size: 45px;
+    font-size: 16px;
     font-weight: 500;
     margin-top: 30%;
     margin-bottom: 160px;
-    margin-left: 160px;
+    margin-left: 0;
     margin-right: 80px;
 }
 
@@ -336,11 +336,20 @@ a:hover {
     vertical-align: middle;
 }
 
+
+.project8:hover .image8 {
+    opacity: 0.8;
+}
+
+.project8:hover .middle8 {
+    opacity: 1;
+}
+
 .etc {
     float: left;
     margin-top: 400px;
     margin-bottom: 160px;
     margin-left: 80px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
 }

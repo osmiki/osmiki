@@ -40,7 +40,7 @@ body {
     margin-top: 192px;
     padding-left: 80px;
     padding-right: 55%;
-    font-family: 'Roboto'  , sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media(max-width:800px) {
@@ -80,7 +80,7 @@ a {
 }
 
 .bottom {
-    font-family: 'Roboto'  , sans-serif;
+    font-family: 'Roboto', sans-serif;
     bottom: 16px;
     left: 80px;
     font-size: 13px;
@@ -98,19 +98,20 @@ a {
 
 .project1_title {
     display: block;
-    margin-left: auto;
+    margin-left: 80px;
     margin-right: auto;
     margin-bottom: 80px;
-    text-align: center;
-    font-size: 80px;
-    font-weight: 200;
-    font-family: 'Roboto'  , sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
 
 .project1_article {
-    text-align: center;
-    font-size: 13px;
-    font-family: 'Roboto'  , sans-serif;
+    text-align: left;
+    margin-left: 80px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
 }
 
 

@@ -99,19 +99,20 @@ a {
 
 .project6_title {
     display: block;
-    margin-left: auto;
+    margin-left: 80px;
     margin-right: auto;
     margin-bottom: 80px;
-    text-align: center;
-    font-size: 80px;
-    font-weight: 200;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
     font-family: 'Roboto'  , sans-serif;
     color: white;
 }
 
 #project6_article {
-    text-align: center;
-    font-size: 13px;
+    text-align: left;
+    margin-left: 80px;
+    font-size: 12px;
     font-weight: 100;
     font-family: 'Roboto'  , sans-serif;
     color: white;
