@@ -70,7 +70,6 @@ body {
     width: 104px;
     right: 80px;
     margin: 48px 0px 0px 80px;
-
     position: fixed;
 
 }
@@ -243,9 +242,9 @@ a:hover {
     font-size: 16px;
 }
 
-.project6 img {
-    width: 70%;
-    float: left;
+.image6 {   
+    width: 80%;
+    float:left;
     margin-top: 80px;
 }
 
@@ -259,7 +258,7 @@ a:hover {
 }
 
 .project6:hover .image6 {
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .project6:hover .middle6 {
@@ -282,7 +281,6 @@ a:hover {
     .project6 {
         margin-bottom: 160px;
     }
-
 }
 
 .project7 img {

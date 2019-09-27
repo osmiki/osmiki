@@ -40,7 +40,7 @@ body {
     margin-top: 192px;
     padding-left: 80px;
     padding-right: 55%;
-    font-family: Graphik, "나눔바른고딕", cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media(max-width:800px) {
@@ -80,7 +80,7 @@ a {
 }
 
 .bottom {
-    font-family: Graphik, cursive;
+    font-family: 'Roboto', sans-serif;
     bottom: 16px;
     left: 80px;
     font-size: 13px;
