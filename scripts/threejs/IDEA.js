@@ -52,7 +52,7 @@ function init() {
 	scene.background = new THREE.Color(0x000000);
 
 	//directional Light
-	var directionalLight = new THREE.DirectionalLight(0xffffff, 0.4);
+	var directionalLight = new THREE.DirectionalLight(0xfff, 0.4);
     directionalLight.position.set(0,4000,4000);
 	scene.add(directionalLight);
 
@@ -64,7 +64,7 @@ function init() {
 
 	// Amb Light
 
-	var Amblight = new THREE.AmbientLight(0xffffff, 1.0);
+	var Amblight = new THREE.AmbientLight(0xfff, 1.0);
 	scene.add(Amblight);
 
 
