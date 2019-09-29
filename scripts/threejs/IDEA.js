@@ -2,6 +2,7 @@
 var md = new MobileDetect(window.navigator.userAgent);
 var isMobile = false;
 var mobileDevice; //
+var mouseX;
 
 
 
