@@ -93,7 +93,7 @@ function init() {
 	// Load a glTF resource
 	loader.load(
 		// resource URL
-		'/scripts/threejs/IDEA.glb',
+		'scripts/threejs/IDEA.glb',
 		// called when the resource is loaded
 		function (gltf) {
 			gltf.scene.traverse(function (child) {
