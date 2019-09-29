@@ -104,7 +104,7 @@ function init() {
 					child.material.flatShading = true;
 					child.material.visible = true;
 					child.material.shininess = 0;
-					child.material.specular = new THREE.Color('0xffffff');
+					child.material.specular = new THREE.Color('0xfff');
 
 				}
 			});
