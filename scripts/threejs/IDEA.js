@@ -95,8 +95,8 @@ function init() {
 		// resource URL
 		'/scripts/threejs/IDEA.glb',
 		// called when the resource is loaded
-		function (gltf) {
-			gltf.scene.traverse(function (child) {
+		function (glb) {
+			glb.scene.traverse(function (child) {
 				if (child.isMesh) {
 
 					child.castShadow = true;
@@ -110,15 +110,15 @@ function init() {
 			});
 
 
-			gltf.scene.scale.set(0.7, 0.7, 0.7);
+			glb.scene.scale.set(0.7, 0.7, 0.7);
 
 
 
 
-			scene.add(gltf.scene);
-			scene.add(gltf.animations); // Array<THREE.AnimationClip>
-			gltf.scene; // THREE.Scene
-			gltf.asset; // Object
+			scene.add(glb.scene);
+			scene.add(glb.animations); // Array<THREE.AnimationClip>
+			glb.scene; // THREE.Scene
+			glb.asset; // Object
 
 
 		});
