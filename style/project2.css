@@ -91,6 +91,9 @@ a {
 }
 
 /*project2 area*/
+.P2_photo img {
+    width: 100%;
+}
 
 #video2 {
     display: block;
