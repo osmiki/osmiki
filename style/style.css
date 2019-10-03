@@ -247,6 +247,7 @@ a:hover {
     float:left;
     margin-left: 10%;
     margin-top: 180px;
+    margin-bottom: 180px;
 }
 
 .middle6 {
@@ -259,7 +260,7 @@ a:hover {
 }
 
 .project6:hover .image6 {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .project6:hover .middle6 {
@@ -351,4 +352,6 @@ a:hover {
     margin-left: 80px;
     font-size: 16px;
     font-weight: 500;
+    font-family: 'Roboto'  , sans-serif;
+
 }
